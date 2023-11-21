@@ -1,0 +1,31 @@
+.portfolio__img-wrapper {
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.portfolio__img {
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
+  transition: all 0.5s cubic-bezier(0.3, 0, 0.3, 1);
+}
+
+.portfolio__items:hover .portfolio__img {
+  transform: scale(1.04);
+}
+
+.portfolio__category {
+  font-weight: 700;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.portfolio__category,
+.portfolio__description {
+  margin-top: 10px;
+}
+
+.portfolio__description {
+  min-height: 125px;
+}
